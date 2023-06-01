@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Booking/Booking - GetBookingIds","testCaseId":"Test Cases/Booking/Booking - GetBookingIds","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Booking - GetBooking","testCaseId":"Test Cases/Booking/Booking - GetBooking","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Booking - CreateBooking","testCaseId":"Test Cases/Booking/Booking - CreateBooking","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Booking - UpdateBooking","testCaseId":"Test Cases/Booking/Booking - UpdateBooking","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Booking - PartialUpdateBooking","testCaseId":"Test Cases/Booking/Booking - PartialUpdateBooking","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Booking - DeleteBooking","testCaseId":"Test Cases/Booking/Booking - DeleteBooking","iterationVariableName":""}

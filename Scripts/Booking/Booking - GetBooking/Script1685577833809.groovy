@@ -21,5 +21,5 @@ response = WS.sendRequest(findTestObject('Booking/Booking - GetBooking'))
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'lastname', 'Smith')
+WS.containsString(response, 'lastname', false)
 

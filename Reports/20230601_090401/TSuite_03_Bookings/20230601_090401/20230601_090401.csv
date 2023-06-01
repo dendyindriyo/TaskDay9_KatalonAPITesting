@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSuite_03_Bookings,,,,2023-06-01 09:04:03,2023-06-01 09:04:12,9.389s,PASSED
+,,,,,,,
+Test Cases/Booking/Booking - GetBookingIds,,,,2023-06-01 09:04:03,2023-06-01 09:04:06,2.663s,PASSED
+"response = sendRequest(findTestObject(""Booking/Booking - GetBookingIds""))",,,,2023-06-01 09:04:03,2023-06-01 09:04:06,2.345s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-01 09:04:06,2023-06-01 09:04:06,0.011s,PASSED
+"containsString(response, ""bookingid"", false)",,,,2023-06-01 09:04:06,2023-06-01 09:04:06,0.010s,PASSED
+,,,,,,,
+Test Cases/Booking/Booking - GetBooking,,,,2023-06-01 09:04:06,2023-06-01 09:04:07,1.356s,PASSED
+"response = sendRequest(findTestObject(""Booking/Booking - GetBooking""))",,,,2023-06-01 09:04:06,2023-06-01 09:04:07,1.147s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-01 09:04:07,2023-06-01 09:04:07,0.003s,PASSED
+"containsString(response, ""lastname"", false)",,,,2023-06-01 09:04:07,2023-06-01 09:04:07,0.002s,PASSED
+,,,,,,,
+Test Cases/Booking/Booking - CreateBooking,,,,2023-06-01 09:04:07,2023-06-01 09:04:08,1.293s,PASSED
+"response = sendRequest(findTestObject(""Booking/Booking - CreateBooking""))",,,,2023-06-01 09:04:07,2023-06-01 09:04:08,1.017s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-01 09:04:08,2023-06-01 09:04:08,0.003s,PASSED
+"verifyElementPropertyValue(response, ""booking.lastname"", ""Budi"")",,,,2023-06-01 09:04:08,2023-06-01 09:04:08,0.045s,PASSED
+,,,,,,,
+Test Cases/Booking/Booking - UpdateBooking,,,,2023-06-01 09:04:08,2023-06-01 09:04:10,1.331s,PASSED
+"response = sendRequest(findTestObject(""Booking/Booking - UpdateBooking""))",,,,2023-06-01 09:04:09,2023-06-01 09:04:10,1.098s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-01 09:04:10,2023-06-01 09:04:10,0.003s,PASSED
+"verifyElementPropertyValue(response, ""lastname"", ""Carlos"")",,,,2023-06-01 09:04:10,2023-06-01 09:04:10,0.016s,PASSED
+,,,,,,,
+Test Cases/Booking/Booking - PartialUpdateBooking,,,,2023-06-01 09:04:10,2023-06-01 09:04:11,1.248s,PASSED
+"response = sendRequest(findTestObject(""Booking/Booking - PartialUpdateBooking""))",,,,2023-06-01 09:04:10,2023-06-01 09:04:11,1.011s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-01 09:04:11,2023-06-01 09:04:11,0.003s,PASSED
+"verifyElementPropertyValue(response, ""totalprice"", 666)",,,,2023-06-01 09:04:11,2023-06-01 09:04:11,0.016s,PASSED
+"verifyElementPropertyValue(response, ""additionalneeds"", ""Carpet"")",,,,2023-06-01 09:04:11,2023-06-01 09:04:11,0.015s,PASSED
+,,,,,,,
+Test Cases/Booking/Booking - DeleteBooking,,,,2023-06-01 09:04:11,2023-06-01 09:04:12,1.253s,PASSED
+"response = sendRequest(findTestObject(""Booking/Booking - DeleteBooking""))",,,,2023-06-01 09:04:11,2023-06-01 09:04:12,1.055s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,2023-06-01 09:04:12,2023-06-01 09:04:12,0.001s,PASSED

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSuite_03_Bookings" time="9.389" tests="6" failures="0" errors="0">
+   <testsuite name="TSuite_03_Bookings" tests="6" failures="0" errors="0" time="9.389" skipped="0" timestamp="2023-06-01 09:04:03" hostname="Danang - DESKTOP-V3UDJBC" id="Test Suites/TSuite_03_Bookings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Program Files\\Katalon\\Katalon Projects\\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\\Reports\\20230601_090401\\TSuite_03_Bookings\\20230601_090401"/>
+         <property name="logFiles" value="D:\\Program Files\\Katalon\\Katalon Projects\\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\\Reports\\20230601_090401\\TSuite_03_Bookings\\20230601_090401\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Danang - DESKTOP-V3UDJBC"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Booking/Booking - GetBookingIds" time="2.663" classname="Test Cases/Booking/Booking - GetBookingIds" status="PASSED">
+         <system-out><![CDATA[2023-06-01 09:04:03 - [TEST_CASE][PASSED] - Test Cases/Booking/Booking - GetBookingIds: Test Cases/Booking/Booking - GetBookingIds
+
+2023-06-01 09:04:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Booking - GetBookingIds")): Send request successfully
+
+2023-06-01 09:04:06 - [MESSAGE][INFO] - HAR: D:\Program Files\Katalon\Katalon Projects\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\Reports\20230601_090401\TSuite_03_Bookings\20230601_090401\requests\main\0.har
+
+2023-06-01 09:04:06 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-01 09:04:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-06-01 09:04:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-06-01 09:04:06 - [TEST_STEP][PASSED] - containsString(response, "bookingid", false): Check contain string successfully
+
+2023-06-01 09:04:06 - [MESSAGE][PASSED] - Check contain string successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Booking - GetBooking" time="1.356" classname="Test Cases/Booking/Booking - GetBooking" status="PASSED">
+         <system-out><![CDATA[2023-06-01 09:04:06 - [TEST_CASE][PASSED] - Test Cases/Booking/Booking - GetBooking: Test Cases/Booking/Booking - GetBooking
+
+2023-06-01 09:04:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Booking - GetBooking")): Send request successfully
+
+2023-06-01 09:04:07 - [MESSAGE][INFO] - HAR: D:\Program Files\Katalon\Katalon Projects\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\Reports\20230601_090401\TSuite_03_Bookings\20230601_090401\requests\main\1.har
+
+2023-06-01 09:04:07 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-01 09:04:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-06-01 09:04:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-06-01 09:04:07 - [TEST_STEP][PASSED] - containsString(response, "lastname", false): Check contain string successfully
+
+2023-06-01 09:04:07 - [MESSAGE][PASSED] - Check contain string successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Booking - CreateBooking" time="1.293" classname="Test Cases/Booking/Booking - CreateBooking" status="PASSED">
+         <system-out><![CDATA[2023-06-01 09:04:07 - [TEST_CASE][PASSED] - Test Cases/Booking/Booking - CreateBooking: Test Cases/Booking/Booking - CreateBooking
+
+2023-06-01 09:04:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Booking - CreateBooking")): Send request successfully
+
+2023-06-01 09:04:08 - [MESSAGE][INFO] - HAR: D:\Program Files\Katalon\Katalon Projects\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\Reports\20230601_090401\TSuite_03_Bookings\20230601_090401\requests\main\2.har
+
+2023-06-01 09:04:08 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-01 09:04:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-06-01 09:04:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-06-01 09:04:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "booking.lastname", "Budi"): Verify element property value successfully
+
+2023-06-01 09:04:08 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Booking - UpdateBooking" time="1.331" classname="Test Cases/Booking/Booking - UpdateBooking" status="PASSED">
+         <system-out><![CDATA[2023-06-01 09:04:08 - [TEST_CASE][PASSED] - Test Cases/Booking/Booking - UpdateBooking: Test Cases/Booking/Booking - UpdateBooking
+
+2023-06-01 09:04:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Booking - UpdateBooking")): Send request successfully
+
+2023-06-01 09:04:10 - [MESSAGE][INFO] - HAR: D:\Program Files\Katalon\Katalon Projects\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\Reports\20230601_090401\TSuite_03_Bookings\20230601_090401\requests\main\3.har
+
+2023-06-01 09:04:10 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-01 09:04:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-06-01 09:04:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-06-01 09:04:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "lastname", "Carlos"): Verify element property value successfully
+
+2023-06-01 09:04:10 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Booking - PartialUpdateBooking" time="1.248" classname="Test Cases/Booking/Booking - PartialUpdateBooking" status="PASSED">
+         <system-out><![CDATA[2023-06-01 09:04:10 - [TEST_CASE][PASSED] - Test Cases/Booking/Booking - PartialUpdateBooking: Test Cases/Booking/Booking - PartialUpdateBooking
+
+2023-06-01 09:04:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Booking - PartialUpdateBooking")): Send request successfully
+
+2023-06-01 09:04:11 - [MESSAGE][INFO] - HAR: D:\Program Files\Katalon\Katalon Projects\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\Reports\20230601_090401\TSuite_03_Bookings\20230601_090401\requests\main\4.har
+
+2023-06-01 09:04:11 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-01 09:04:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-06-01 09:04:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-06-01 09:04:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "totalprice", 666): Verify element property value successfully
+
+2023-06-01 09:04:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-06-01 09:04:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "additionalneeds", "Carpet"): Verify element property value successfully
+
+2023-06-01 09:04:11 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Booking - DeleteBooking" time="1.253" classname="Test Cases/Booking/Booking - DeleteBooking" status="PASSED">
+         <system-out><![CDATA[2023-06-01 09:04:11 - [TEST_CASE][PASSED] - Test Cases/Booking/Booking - DeleteBooking: Test Cases/Booking/Booking - DeleteBooking
+
+2023-06-01 09:04:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Booking - DeleteBooking")): Send request successfully
+
+2023-06-01 09:04:12 - [MESSAGE][INFO] - HAR: D:\Program Files\Katalon\Katalon Projects\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\Reports\20230601_090401\TSuite_03_Bookings\20230601_090401\requests\main\5.har
+
+2023-06-01 09:04:12 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-01 09:04:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2023-06-01 09:04:12 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-01 09:04:03 - [TEST_SUITE][PASSED] - TSuite_03_Bookings: Test Cases/Booking/Booking - DeleteBooking]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
