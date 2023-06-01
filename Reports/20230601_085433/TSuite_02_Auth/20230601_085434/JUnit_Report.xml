@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSuite_02_Auth" time="2.517" tests="1" failures="0" errors="0">
+   <testsuite name="TSuite_02_Auth" tests="1" failures="0" errors="0" time="2.517" skipped="0" timestamp="2023-06-01 08:54:36" hostname="Danang - DESKTOP-V3UDJBC" id="Test Suites/TSuite_02_Auth">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Program Files\\Katalon\\Katalon Projects\\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\\Reports\\20230601_085433\\TSuite_02_Auth\\20230601_085434"/>
+         <property name="logFiles" value="D:\\Program Files\\Katalon\\Katalon Projects\\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\\Reports\\20230601_085433\\TSuite_02_Auth\\20230601_085434\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Danang - DESKTOP-V3UDJBC"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Auth/Auth - CreateToken" time="2.342" classname="Test Cases/Auth/Auth - CreateToken" status="PASSED">
+         <system-out><![CDATA[2023-06-01 08:54:36 - [TEST_CASE][PASSED] - Test Cases/Auth/Auth - CreateToken: Test Cases/Auth/Auth - CreateToken
+
+2023-06-01 08:54:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Auth/Auth - CreateToken")): Send request successfully
+
+2023-06-01 08:54:39 - [MESSAGE][INFO] - HAR: D:\Program Files\Katalon\Katalon Projects\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\Reports\20230601_085433\TSuite_02_Auth\20230601_085434\requests\main\0.har
+
+2023-06-01 08:54:39 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-01 08:54:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-06-01 08:54:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-06-01 08:54:39 - [TEST_STEP][PASSED] - containsString(response, "token", false): Check contain string successfully
+
+2023-06-01 08:54:39 - [MESSAGE][PASSED] - Check contain string successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-01 08:54:36 - [TEST_SUITE][PASSED] - TSuite_02_Auth: Test Cases/Auth/Auth - CreateToken]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

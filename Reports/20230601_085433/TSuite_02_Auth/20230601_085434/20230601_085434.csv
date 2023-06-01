@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSuite_02_Auth,,,,2023-06-01 08:54:36,2023-06-01 08:54:39,2.517s,PASSED
+,,,,,,,
+Test Cases/Auth/Auth - CreateToken,,,,2023-06-01 08:54:36,2023-06-01 08:54:39,2.342s,PASSED
+"response = sendRequest(findTestObject(""Auth/Auth - CreateToken""))",,,,2023-06-01 08:54:37,2023-06-01 08:54:39,2.096s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-01 08:54:39,2023-06-01 08:54:39,0.009s,PASSED
+"containsString(response, ""token"", false)",,,,2023-06-01 08:54:39,2023-06-01 08:54:39,0.008s,PASSED
