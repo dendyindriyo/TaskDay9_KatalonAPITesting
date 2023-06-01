@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSuite_01_Check Server,,,,2023-06-01 08:51:51,2023-06-01 08:51:54,2.542s,PASSED
+,,,,,,,
+Test Cases/Ping/Ping - HealthCheck,,,,2023-06-01 08:51:51,2023-06-01 08:51:54,2.361s,PASSED
+"response = sendRequest(findTestObject(""Ping/Ping - HealthCheck""))",,,,2023-06-01 08:51:52,2023-06-01 08:51:54,2.079s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,2023-06-01 08:51:54,2023-06-01 08:51:54,0.009s,PASSED

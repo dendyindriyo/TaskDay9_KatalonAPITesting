@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSuites_01_Check Server" time="2.787" tests="1" failures="0" errors="0">
+   <testsuite name="TSuites_01_Check Server" tests="1" failures="0" errors="0" time="2.787" skipped="0" timestamp="2023-06-01 08:49:45" hostname="Danang - DESKTOP-V3UDJBC" id="Test Suites/TSuites_01_Check Server">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Program Files\\Katalon\\Katalon Projects\\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\\Reports\\20230601_084943\\TSuites_01_Check Server\\20230601_084943"/>
+         <property name="logFiles" value="D:\\Program Files\\Katalon\\Katalon Projects\\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\\Reports\\20230601_084943\\TSuites_01_Check Server\\20230601_084943\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Danang - DESKTOP-V3UDJBC"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Ping/Ping - HealthCheck" time="2.583" classname="Test Cases/Ping/Ping - HealthCheck" status="PASSED">
+         <system-out><![CDATA[2023-06-01 08:49:45 - [TEST_CASE][PASSED] - Test Cases/Ping/Ping - HealthCheck: Test Cases/Ping/Ping - HealthCheck
+
+2023-06-01 08:49:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Ping/Ping - HealthCheck")): Send request successfully
+
+2023-06-01 08:49:47 - [MESSAGE][INFO] - HAR: D:\Program Files\Katalon\Katalon Projects\TaskDay9_KatalonAPITesting_DendyIndriyoSaputro\Reports\20230601_084943\TSuites_01_Check Server\20230601_084943\requests\main\0.har
+
+2023-06-01 08:49:47 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-01 08:49:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2023-06-01 08:49:47 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-01 08:49:45 - [TEST_SUITE][PASSED] - TSuites_01_Check Server: Test Cases/Ping/Ping - HealthCheck]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
